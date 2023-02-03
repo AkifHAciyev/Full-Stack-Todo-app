@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.App {
+	text-align: center;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.completed {
+	color: green;
+}
+
+.text {
+	color: rgb(41, 56, 190);
+}
+
+p {
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+button {
+	margin-top: 20px;
+	margin-left: 8px;
+	border-radius: 8px;
+	border: 1px solid gray;
+	padding: 5px;
+	cursor: pointer;
+	background-color: #fff;
+}
+
+button:hover {
+	background-color: rgb(41, 56, 190);
+	color: #fff;
+}
+
+span {
+	margin-top: 20px;
+	margin-left: 10px;
+}
